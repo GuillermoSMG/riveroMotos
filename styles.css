@@ -1,0 +1,11 @@
+:root {
+  --principal-bg: #151924;
+  --principal-text: #f8f8f8;
+  --decorative-color: #ff3600;
+  --secondaty-text: #f8f8f8d2;
+}
+
+* {
+  background-color: var(--principal-bg);
+  color: var(--principal-text);
+}
