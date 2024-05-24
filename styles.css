@@ -16,6 +16,13 @@
   font-style: normal;
 }
 
+.inicio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
 .Nombre_Empresa{
 color: white;
 font-size: 14em;
