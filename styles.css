@@ -163,13 +163,30 @@
 .Nombre_Empresa {
   color: white;
   font-size: 10em;
+  position: relative;
 }
 
-.titulo {
-  background-image: url('images/image-ai-brush-removebg-5sgcbxzo.webp'),
-    url('images/image-removebg-preview-_1_.webp'),
-    url('images/image-removebg-preview.webp'), url('images/moto-nobg.webp');
+.imagenes{
+  position: absolute;
+  background-image: url("images/image-removebg-preview-_1_.webp"),url(images/imagenYumbocostado.webp),url("images/image-ai-brush-removebg-5sgcbxzo.webp"),url("images/image-removebg-preview-_1_.webp"), url(images/imagenYumbocostado.webp);
+  background-position: -170% 0,-80% 0,-50% 0, 10% 0, 50% 0;
+  background-color: white;
+  height: 25em;
+  width: 100%;
+  background-repeat: no-repeat;
+ background-size: auto 100%;
+ animation:desplazamiento 10s linear infinite;
 }
+@keyframes desplazamiento {
+  0% {
+    background-position:-130% 0,-80% 0,-50% 0, 0% 0, 50% 0;
+  }
+  100% {
+    background-position: 0% 0, 50% , 150% 0, 200% 0, 250% 0;
+  }
+}
+
+
 
 /* =========== FOOTER ========== */
 .footer {
