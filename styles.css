@@ -12,8 +12,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
-
 /* =========== SECCIÓN PRODUCTOS ========== */
 .products_section {
   min-height: 80vh;
@@ -85,3 +87,19 @@
   align-self: flex-end;
 }
 /* =========== FINAL SECCIÓN PRODUCTOS ========== */
+
+.inicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.Nombre_Empresa {
+  color: white;
+  font-size: 14em;
+}
+.titulo {
+  background-image: url('images/image-ai-brush-removebg-5sgcbxzo.webp'),
+    url('images/image-removebg-preview-_1_.webp'),
+    url('images/image-removebg-preview.webp'), url('images/moto-nobg.webp');
+}
