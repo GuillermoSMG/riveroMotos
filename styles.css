@@ -14,6 +14,7 @@
   font-family: "Anton", sans-serif;
   font-weight: 400;
   font-style: normal;
+  z-index: 1;
 }
 
 .inicio{
@@ -26,7 +27,24 @@
 .Nombre_Empresa{
 color: white;
 font-size: 14em;
+height: 2em;
+width: 9em;
+background-image: url("images/image-ai-brush-removebg-5sgcbxzo.webp"), url("images/image-removebg-preview-_1_.webp"), url("images/imagenYumbocostado.webp");
+background-size: auto 100%; /* Ajusta el tamaño de las imágenes de fondo según sea necesario */
+background-repeat: no-repeat;
+background-position: 0 0, 100% 0, 200% 0;
+animation: desplazamiento 10s linear infinite;
 }
-.titulo{
-  background-image: url("images/image-ai-brush-removebg-5sgcbxzo.webp"),url("images/image-removebg-preview-_1_.webp"),url("images/image-removebg-preview.webp"),url("images/moto-nobg.webp") ;
+
+@keyframes desplazamiento {
+0% { background-position: 0 0, 100% 0, 200% 0; }
+100% { background-position: 100% 0, 200% 0, 300% 0; }
+}
+.container_titulo{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ height: 100vh;
+ width: 100%;
   }
