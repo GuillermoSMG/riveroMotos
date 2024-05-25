@@ -30,6 +30,7 @@
   height: 120px;
   background-color: var(--decorative-color);
   transform: rotate(45deg);
+  filter: drop-shadow(8px 8px 10px var(--decorative-color));
 }
 
 .bigSquare {
@@ -39,6 +40,7 @@
   height: 260px;
   background-color: var(--decorative-color);
   transform: rotate(45deg);
+  filter: drop-shadow(16px 16px 20px var(--decorative-color));
 }
 
 * {
