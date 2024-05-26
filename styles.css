@@ -164,25 +164,27 @@
   color: white;
   font-size: 10em;
   position: relative;
+ 
 }
 
 .imagenes{
   position: absolute;
-  background-image: url("images/image-removebg-preview-_1_.webp"),url(images/imagenYumbocostado.webp),url("images/image-ai-brush-removebg-5sgcbxzo.webp"),url("images/image-removebg-preview-_1_.webp"), url(images/imagenYumbocostado.webp);
-  background-position: -170% 0,-80% 0,-50% 0, 10% 0, 50% 0;
-  background-color: white;
+  background-image: url("images/image-removebg-preview-_1_.webp"),url(images/imagenYumbocostado.webp),url("images/zanellaDeCostado.webp"),url("images/c90.webp"),url(images/imagenYumbocostado.webp),url("images/image-ai-brush-removebg-5sgcbxzo.webp"),url("images/image-removebg-preview-_1_.webp"), url(images/imagenYumbocostado.webp), url("images/zanellaDeCostado.webp");
+  background-position: -120%,-170% 0,-80% 0,-50% 0, 10% 0, 50% 0, 100% 0;
+  background-color: rgba(255, 255, 255, 0.514);
   height: 25em;
   width: 100%;
   background-repeat: no-repeat;
  background-size: auto 100%;
- animation:desplazamiento 10s linear infinite;
+ animation:desplazamiento 20s linear infinite;
+
 }
 @keyframes desplazamiento {
   0% {
-    background-position:-130% 0,-80% 0,-50% 0, 0% 0, 50% 0;
+    background-position:-300%,-250% 0, -200% 0,-150% 0,-100% 0,-50% 0, 0% 0, 50% 0, 100% 0;
   }
   100% {
-    background-position: 0% 0, 50% , 150% 0, 200% 0, 250% 0;
+    background-position: 0% ,50%,100% 0,150% 0, 200% 0 , 250% 0, 300% 0, 350% 0, 400% 0;
   }
 }
 
